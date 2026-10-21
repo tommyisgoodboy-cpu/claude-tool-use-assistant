@@ -57,7 +57,7 @@ Node 22+, `@anthropic-ai/sdk`, `node:dns`, built-in `fetch`, `node:readline`, `n
 ## Run it
 
 ```bash
-git clone <this repo> && cd claude-tool-use-assistant
+git clone https://github.com/tommyisgoodboy-cpu/claude-tool-use-assistant.git && cd claude-tool-use-assistant
 npm install
 npm run demo          # scripted offline model, no API key; DNS and HTTP are still live
 ```
