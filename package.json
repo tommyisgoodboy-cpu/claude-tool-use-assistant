@@ -1,0 +1,17 @@
+{
+  "name": "claude-tool-use-assistant",
+  "version": "1.0.0",
+  "description": "A CLI IT-support assistant built on the Claude API with function calling: it runs real lookups (DNS, HTTP) and fills a ticket instead of only answering in text.",
+  "type": "module",
+  "engines": { "node": ">=22.9" },
+  "bin": { "assistant": "src/index.js" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "demo": "node src/index.js --mock --yes --ask \"Is example.org reachable, what does its DNS say, and raise a ticket for laptop LT-1042 which won't join Wi-Fi?\"",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.137.0"
+  },
+  "license": "MIT"
+}

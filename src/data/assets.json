@@ -1,0 +1,6 @@
+[
+  { "asset_id": "LT-1042", "type": "Laptop", "model": "ThinkBook 14 G6", "os": "Windows 11 23H2", "owner": "Alex Chan", "location": "Floor 3, Desk 14", "warranty_until": "2027-03-31", "last_seen": "2026-10-20T08:41:00Z" },
+  { "asset_id": "LT-2210", "type": "Laptop", "model": "MacBook Air M3", "os": "macOS 15.2", "owner": "Jordan Lee", "location": "Remote", "warranty_until": "2026-12-01", "last_seen": "2026-10-21T01:12:00Z" },
+  { "asset_id": "PR-0007", "type": "Printer", "model": "LaserJet M455", "os": "firmware 5.4.1", "owner": "Shared", "location": "Floor 2 print room", "warranty_until": "2026-08-15", "last_seen": "2026-10-21T03:00:00Z" },
+  { "asset_id": "SW-0100", "type": "Switch", "model": "24-port PoE", "os": "firmware 9.1", "owner": "Network team", "location": "Comms room B", "warranty_until": "2028-01-10", "last_seen": "2026-10-21T03:05:00Z" }
+]

@@ -1,0 +1,7 @@
+[
+  { "service": "vpn", "status": "operational", "note": "All gateways healthy." },
+  { "service": "email", "status": "degraded", "note": "Delayed delivery to external recipients since 07:30 UTC.", "ticket": "INC-DEMO-17" },
+  { "service": "wifi", "status": "operational", "note": "Controller upgrade planned Saturday 02:00-04:00 UTC." },
+  { "service": "file-share", "status": "outage", "note": "Primary volume unavailable; failover in progress.", "ticket": "INC-DEMO-21" },
+  { "service": "ticketing", "status": "operational", "note": "No known issues." }
+]
